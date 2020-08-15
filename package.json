@@ -19,7 +19,9 @@
   "homepage": "https://github.com/CoderHulk/Bootcamps#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
