@@ -23,6 +23,9 @@ const PORT = process.env.PORT || 5000;
 // custom middleware
 app.use(logger);
 
+// Body Parser
+app.use(express.json());
+
 // Dev logging middleware Morgan
 if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
